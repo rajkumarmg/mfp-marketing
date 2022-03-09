@@ -25,13 +25,13 @@ sudo docker build -f ./Dockerfile.prod -t mfp-marketing-image-prod .
 To start a development container, please run
 
 ```
-sudo docker container run -d -p 8081:8081 --name mfp-marketing mfp-marketing-image-dev
+sudo docker container run -d -p 8081:8081 --name mfp-marketing-dev mfp-marketing-image-dev
 ```
 
 To start a prod container, please run
 
 ```
-sudo docker container run -d -p 8081:80 --name mfp-marketing mfp-marketing-image-prod
+sudo docker container run -d -p 8081:80 --name mfp-marketing-prod mfp-marketing-image-prod
 ```
 
 To bash into to the container, please use
