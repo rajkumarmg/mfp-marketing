@@ -107,6 +107,13 @@ export default function Album() {
                     </Button>
                   </Link>
                 </Grid>
+                <Grid item>
+                  <Link to="/crud">
+                    <Button variant="outlined" color="primary">
+                      Crud
+                    </Button>
+                  </Link>
+                </Grid>
               </Grid>
             </div>
           </Container>

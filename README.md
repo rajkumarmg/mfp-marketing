@@ -5,7 +5,7 @@ Assuming you already have nodejs installed.
 Run the following command one by one.
 ```
 git clone https://github.com/rajkumarmg/mfp-marketing.git
-cd mfp-dashboard
+cd mfp-marketing
 npm i
 npm start
 ```
